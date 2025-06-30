@@ -1,4 +1,4 @@
-//MAP
+//MAP - Used to transform each element in an array.
 let arr = [10,20,30,40];
 //isko store krwaenge
 let sqrdArr = arr.map((number)=>{
@@ -30,7 +30,7 @@ brr.filter((value)=>{
     }
 })
 
-//REDUCE - gives a single output of whole array
+//REDUCE - accumulates a single output of whole array
 //acc - single output
 //curr - current element
 //by default acc takes first element value a[0], and curr take value of a[1]
@@ -40,3 +40,4 @@ let totalSum = crr.reduce((acc, curr)=>{
     return acc+curr;
 },0)
 console.log(totalSum);
+
